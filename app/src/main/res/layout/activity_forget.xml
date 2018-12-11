@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".forget">
+    <!--这是自定义控件，可以将大量重复的操作变成一个-->
+    <diss.android.com.diss.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp">
+    </diss.android.com.diss.TitleLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="你这是再难为我皮卡丘，我们会尽快完善，喵喵喵"/>
+
+</LinearLayout>
